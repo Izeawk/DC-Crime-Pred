@@ -19,10 +19,10 @@ The dependent variable in the code is therefore: VIOLENT_CRIME - a variable that
 That was done with the following independent variables: WARD_DUMMY + DAY_WEIGHT + HOLIDAY_PROXIM + SEASON
 The following variables can be summaried as the following:
 
-WARD_DUMMY - A "dummy variable" for whether or not the Ward that the crime was reported in was not in Ward 2 or 6 (1 or 0)
-DAY_WEIGHT - A variable to weigh the time of day in accordance with crimes. Day = 0, Evening = 0.5, Midnight = 1
-HOLIDAY_PROXIM - The amount of days a crime was reported to a Federal Holiday (+ Christmas Eve)
-SEASON - An automatic weighting done by the GLM to give proper weight to each of the four seasons
+1. WARD_DUMMY - A "dummy variable" for whether or not the Ward that the crime was reported in was not in Ward 2 or 6 (1 or 0)
+2. DAY_WEIGHT - A variable to weigh the time of day in accordance with crimes. Day = 0, Evening = 0.5, Midnight = 1
+3. HOLIDAY_PROXIM - The amount of days a crime was reported to a Federal Holiday (+ Christmas Eve)
+4. SEASON - An automatic weighting done by the GLM to give proper weight to each of the four seasons
 
 ## Plotting
 
