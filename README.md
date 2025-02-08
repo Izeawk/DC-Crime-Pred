@@ -5,10 +5,10 @@
 The R code file is my final version submitted for grading in the class "Data Science with R I".
 
 This end-of-term project was designated as an "open project" from which we could select any topic to write code for. 
-Upon searching at [[catalog.data.gov](catalog.data.gov)], I stumbled upon a dataset for crime in Washington, DC in 2024. 
+Upon searching at [catalog.data.gov](catalog.data.gov), I stumbled upon a dataset for crime in Washington, DC in 2024. 
 This data was free for use, so I downloaded the dataset and began a prediction model.
 
-Dataset: [[https://catalog.data.gov/dataset/crime-incidents-in-2024](https://catalog.data.gov/dataset/crime-incidents-in-2024)]
+Dataset: [https://catalog.data.gov/dataset/crime-incidents-in-2024](https://catalog.data.gov/dataset/crime-incidents-in-2024)
 
 ## GLM Prediction Model
 
@@ -27,7 +27,7 @@ The following variables can be summaried as the following:
 ## Plotting
 
 Various plots could be made with the DCmapR library. This library came to be incredibly useful when plotting the results. 
-[[https://github.com/BingoLaHaye/DCmapR](https://github.com/BingoLaHaye/DCmapR)]
+[https://github.com/BingoLaHaye/DCmapR](https://github.com/BingoLaHaye/DCmapR)
 ## Results
 
 The results showed that most of the variables were very significant to the overall model, but this also resulted in an incredibly small McFadden R^2 model. 
